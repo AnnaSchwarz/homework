@@ -1,0 +1,300 @@
+html{
+	height:100%;
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background: url("../img/comppattern2.png") repeat; 
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+ol, ul {list-style: none;}
+
+.wrapper{
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+}
+.header{
+	height: 118px;
+	width: 100%;
+	background-color: #eff3f7;
+	margin-bottom: 39px;
+}
+.header:after{
+	background: url("../img/grad.png") no-repeat;
+}
+
+.container-header{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	display:table;
+	height: 100%;
+}
+.logo {
+	position: absolute;
+    left: 0;
+    margin-top: 40px;
+}
+.socials{
+	margin:0;
+	padding: 0;
+}
+
+.socials .socials-item{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin-left: 19px;
+}
+.container-header .socials{
+	position: absolute;
+	right: 0;
+	margin-top: 40px;
+}
+.socials .soc-link{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
+	background: url(../img/social.png) no-repeat;
+}
+.socials .soc-link.vk{background-position: 0px 0px;}
+.socials .soc-link.vk:hover{background-position: -57px 0px;}
+.socials .soc-link.tw{background-position: -114px 0px;}
+.socials .soc-link.tw:hover{background-position: -171px 0px;}
+.socials .soc-link.fb{background-position: -228px 0px;}
+.socials .soc-link.fb:hover{background-position: -285px 0px;}
+.socials .soc-link.git{background-position: -342px 0px;}
+.socials .soc-link.git:hover{background-position: -399px 0px;}
+
+.page{
+	width: 100%;
+	margin-bottom: 40px;
+	height: 100%;
+	display:table;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	display:table;
+}
+
+.sidebar{
+	width: 250px;
+	float: left;
+}
+.nav{
+	background-color: #eff3f7;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 23px;
+}
+.nav .nav-list{
+	margin: 0;
+	padding: 0;
+}
+.nav .nav-item{
+	border-bottom: 2px solid #3ba8c0;
+	margin: 0 11px;
+}
+.nav .nav-item:first-child{
+	border-top: none;
+}
+
+.nav .nav-item.special{
+	background-color: #3ba8c0;
+	margin: 0;
+	border-bottom: none;
+	padding-left: 11px;
+	margin-bottom: -2px;
+}
+
+.nav .nav-item.special .nav-link{
+	color: #f9fafb;
+	font-size: 22px;
+}
+.nav .nav-link{
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #959aa8;
+	margin-left: 16px;
+	padding: 20px 0px;
+}
+.nav .nav-link:hover{
+	color: #3ba8c0;
+}
+.contacts{
+	background-color: #3ba8c0;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 23px;
+	box-sizing: border-box;
+}
+.contacts .title{
+	color: #ffffff;
+	font-size: 21px;
+	display: block;
+	text-decoration: none;
+	padding: 10px 0;
+	margin-left: -66px;
+}
+.contacts .cont-list{
+	margin: 0;
+	padding: 0;
+}
+.contacts .cont-link{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	padding: 10px 0px;
+	font-size: 17px;
+	padding: 10px 0;
+	max-width: 50px;
+
+}
+.contacts .cont-item{
+	padding: 0 0 0 83px;
+
+}
+.cont-item.icon-mail{
+	background: url(../img/mail.png) 41px center no-repeat;
+	background-color: #41b9d4;
+}
+.cont-item.icon-phone{
+	background: url(../img/tel.png) 41px center no-repeat;
+	background-color: #48cbe8;
+}
+
+.cont-item.icon-skype{
+	background: url(../img/skype.png) 41px center no-repeat;
+	background-color: #51daf8;
+}
+
+
+.content{
+	width: 650px;
+	float: right;
+}
+.block{
+	background: #eff3f7;
+	border-radius: 5px;
+	margin-bottom: 26px;
+}
+.block-title{
+	font-size: 27px;
+	color: #3ba8c0;
+	border-bottom: 2px #3ba8c0 solid;
+	margin: 0 0 23px 0;
+	padding: 15px 23px;
+	display: inline-block;
+}
+.image-wrap{
+	float: left;
+	margin-left: 63px;
+	margin-top: 13px;
+}
+.avatar-box{
+	height: 142px;
+	width: 142px;
+	border-radius: 100px;
+	overflow: hidden;
+	border: 5px solid #179cb5;
+}
+.avatar{
+	width: 100%;
+}
+
+.block .info-wrap{
+	float: right;
+	width: 400px;
+}
+.info-list{
+	margin: 0;
+	padding: 0;
+}
+.info-item{
+	margin-bottom: 8px;
+}
+
+.info-query{
+	font-size: 15px;
+	float: left;
+
+}
+.info-res{
+	margin-left: 20px;
+	float: left;
+	font-size: 15px;
+	overflow: hidden;
+	max-width: 210px;
+}
+.block-body{
+	padding-bottom: 20px;
+}
+.block-body.work .info-item{
+	padding: 0 0 0 120px;
+	margin-bottom: 20px;
+}
+.info-item.icon-w{
+	background: url(../img/work.png) 57px center no-repeat;
+}
+.block-body.studium .info-item{
+	padding: 0 0 0 120px;
+	margin-bottom: 20px;
+}
+.info-item.icon-st{
+	background: url(../img/uni.png) 55px center no-repeat;
+}
+.info-item.icon-kurs{
+	background: url(../img/kurs.png) 62px center no-repeat;
+}
+
+.info-place{
+	font-size: 17px;
+}
+.info-date{
+	font-size: 15px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.container:before, .clearfix:before,
+.container:after, .clearfix:after{
+	content: " ";
+	display: table;
+}
+.content:after, .clearfix:after{
+	clear: both;
+}
+
+
+
+/*.empty{
+	height: 50px;
+}
+*/
+.footer{
+	height: 80px;
+	margin-top: -10px;
+	background-color: #eff3f7;
+}
+.footer .container{
+	padding-top: 23px;
+	position: relative;
+}
+.footer .copyright{
+	text-align: center;
+	font-size: 13px;
+}

@@ -1,0 +1,139 @@
+.frage-wrap{
+	text-align: center;
+/*	overflow: hidden; */
+	background-color:#48cbe8;
+}
+.frage{
+	display:block;
+	font-size: 27px;
+	margin: 0;
+	
+	padding: 50px 0;
+	/*background-color: #48cbe8; 67dffa*/
+}
+.block .add{
+    height: 150px;
+    background-color: #67dffa;
+    margin-bottom: 20px;
+}
+.block-form-wrap{
+	width: 400px;
+	margin: 0 125px;
+}
+.block-form{
+	padding: 30px 0;
+}
+.contact-form-wrap{
+	width: 400px;
+	margin: auto;
+}
+.contact-form{
+
+}
+.forma{
+	display: inline-block;
+	width:50px;
+}
+/*.f{
+	margin-left:5px; 
+}
+*/
+.lab{
+	width: 190px;
+	display: inline-block;
+}
+.form-1{
+	display: inline-block;
+	width: 190px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.form-2{
+	margin-bottom: 20px;
+}
+.from-1{
+	margin-bottom: 20px;
+}
+.short{
+	height: 36px;
+    width: 180px;
+    border: 1px solid #48cbe8;
+    border-radius: 2px;
+    padding-left: 8px; 
+	float: left;
+}
+.big{
+	border: 1px solid #48cbe8;
+    border-radius: 2px;
+    padding-left: 8px; 
+    padding-top: 8px;
+    padding-right: 5px;
+    resize: none;
+}
+.pic{
+	    border: 1px solid #48cbe8;
+    border-radius: 2px;
+    width: 187px;
+    height: 76px;
+    background-color: #fff;
+    display: inline-block;
+    float: left;
+}
+.pic-short{
+	border: 1px solid #48cbe8;
+    border-radius: 2px;
+    display: inline-block;
+	margin-top: 24px;
+    margin-left: 20px;
+    padding-left: 8px;
+    width: 180px;
+    height: 28px;
+}
+.gap{
+	margin-right: 19px;
+}
+.str{
+	padding-left: 15px;
+}
+.mess{
+	width: 400px;
+	height: 180px;
+}
+
+*:focus {outline: none;}
+:-moz-placeholder {
+	color: #48cbe8;
+}
+::-webkit-input-placeholder {
+	color: #48cbe8;
+}
+.button-1 {
+ 	position: relative;
+    padding: 5px 25px;
+    /* margin: 0px 10px 10px 0px; */
+    float: left;
+    border-radius: 5px;
+    font-family: 'Helvetica', cursive;
+    font-size: 19px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #48cbe8;
+    border-bottom: 3px solid #3ba8c0;
+}
+.button-2 {
+ 	position: relative;
+    padding: 5px 25px;
+    /* margin: 0px 10px 10px 0px; */
+    float: right;
+    border-radius: 5px;
+    font-family: 'Helvetica', cursive;
+    font-size: 19px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #849db5;
+    border-bottom: 3px solid #687b8f;
+}
+.btn-wrap{
+	margin-bottom: 200px;
+}
+

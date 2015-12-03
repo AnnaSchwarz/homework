@@ -1,0 +1,56 @@
+						<address class="contacts">
+							<ul class="cont-list">
+								<li class="cont-item"><div class="title">Контакты</div></li>
+								<li class="cont-item icon-mail"><a href="#" class="cont-link" style="">anna.ryzhova48@gmail.com</a></li>
+								<li class="cont-item icon-phone"><a href="#" class="cont-link">+796528141**</a></li>
+								<li class="cont-item icon-skype"><a href="#" class="cont-link">willywonka48</a></li>
+							</ul>
+						</address>
+
+
+						/*CSS*?
+						.contacts{
+	background-color: #3ba8c0;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 23px;
+}
+.contacts .title{
+	color: #ffffff;
+	font-size: 21px;
+	display: block;
+	text-decoration: none;
+	padding: 10px 0;
+	margin-left: -66px;
+}
+.contacts .cont-list{
+	margin: 0;
+	padding: 0;
+}
+.contacts .cont-link{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	padding: 10px 0px;
+	font-size: 17px;
+	padding: 10px 0;
+	max-width: 50px;
+
+}
+.contacts .cont-item{
+	padding: 0 0 0 83px;
+
+}
+.cont-item.icon-mail{
+	background: url(../img/mail.png) 41px center no-repeat;
+	background-color: #41b9d4;
+}
+.cont-item.icon-phone{
+	background: url(../img/tel.png) 41px center no-repeat;
+	background-color: #48cbe8;
+}
+
+.cont-item.icon-skype{
+	background: url(../img/skype.png) 41px center no-repeat;
+	background-color: #51daf8;
+}

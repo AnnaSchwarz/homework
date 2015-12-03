@@ -1,0 +1,16 @@
+
+background-position: 0px 0px;
+ 
+background-position: -57px 0px;
+ 
+background-position: -114px 0px;
+ 
+background-position: -171px 0px;
+ 
+background-position: -228px 0px;
+ 
+background-position: -285px 0px;
+ 
+background-position: -342px 0px;
+ 
+background-position: -399px 0px;
