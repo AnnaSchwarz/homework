@@ -24,11 +24,8 @@ ol, ul {list-style: none;}
 .header{
 	height: 118px;
 	width: 100%;
-	background-color: #eff3f7;
+	background: #eff3f7 url('../img/band.png') bottom center no-repeat;
 	margin-bottom: 39px;
-}
-.header:after{
-	background: url("../img/grad.png") no-repeat;
 }
 
 .container-header{
@@ -288,7 +285,7 @@ ol, ul {list-style: none;}
 .footer{
 	height: 80px;
 	margin-top: -10px;
-	background-color: #eff3f7;
+	background:  #eff3f7 url('../img/band.png') top center no-repeat;
 }
 .footer .container{
 	padding-top: 23px;

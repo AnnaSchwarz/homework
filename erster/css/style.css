@@ -9,6 +9,9 @@ body{
 	padding: 0;
 	margin: 0;
 	background: url("../img/comppattern2.png") repeat; 
+	font-family: 'fira_sanslight';
+    color: #4a545d;
+
 }
 ul{
   margin: 0;
@@ -24,13 +27,9 @@ ol, ul {list-style: none;}
 .header{
 	height: 118px;
 	width: 100%;
-	background-color: #eff3f7;
 	margin-bottom: 39px;
+	background: #eff3f7 url('../img/band.png') bottom center no-repeat;
 }
-.header:after{
-	background: url("../img/grad.png") no-repeat;
-}
-
 .container-header{
 	width: 1200px;
 	margin: 0 auto;
@@ -197,6 +196,8 @@ ol, ul {list-style: none;}
 	margin: 0 0 23px 0;
 	padding: 15px 23px;
 	display: inline-block;
+	font-weight: normal;
+
 }
 .image-wrap{
 	float: left;
@@ -226,9 +227,10 @@ ol, ul {list-style: none;}
 	margin-bottom: 8px;
 }
 
-.info-query{
+.info-item .info-query{
 	font-size: 15px;
 	float: left;
+	font-family: 'fira_sansmedium';
 
 }
 .info-res{
@@ -288,7 +290,7 @@ ol, ul {list-style: none;}
 .footer{
 	height: 80px;
 	margin-top: -10px;
-	background-color: #eff3f7;
+	background:  #eff3f7 url('../img/band.png') top center no-repeat;
 }
 .footer .container{
 	padding-top: 23px;

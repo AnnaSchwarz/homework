@@ -1,11 +1,12 @@
 .part-cont{
 	display: inline-block;
-	width: 170px;
+	width: 180px;
 	overflow: hidden;
 	text-align: center;
 	vertical-align: top;
 	margin-bottom: 20px;
 	margin-left: 20px;
+	margin-right: 10px;
 
 
 }
@@ -15,7 +16,8 @@
 	position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    height: 221px;
+    /*width: 178px; */
+	height: 124px;
 }
 .bild{
 	width: 100%;
@@ -41,6 +43,19 @@
     margin-top: 55px;
     text-align: center;
 }
+.link-2{
+
+	text-decoration: none;
+    font-family: 'fira_sanslight_italic';
+    font-size: 13px;
+    color: #3ba8c0;
+}
 .bild:hover + .cover, .cover:hover {
 	display: block;
+}
+.description{
+	text-align: center;
+    font-family: 'fira_sanslight';
+    font-size: 15px;
+    color: #4a545d;
 }
