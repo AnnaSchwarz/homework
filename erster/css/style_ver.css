@@ -7,9 +7,15 @@
 	display:block;
 	font-size: 27px;
 	margin: 0;
-	
+	font-family: 'fira_sansbook';
+    color: #fff;
 	padding: 50px 0;
 	/*background-color: #48cbe8; 67dffa*/
+}
+
+.contact-form {
+    color: #a3a7b4;
+    font-family: 'fira_sanslight';
 }
 .block .add{
     height: 150px;
@@ -69,6 +75,7 @@
     padding-top: 8px;
     padding-right: 5px;
     resize: none;
+        width: 385px;
 }
 .pic{
 	    border: 1px solid #48cbe8;
