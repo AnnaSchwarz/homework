@@ -1,17 +1,22 @@
+.projects{
+	padding-bottom: 230px;
+	margin-top: 6px;
+	margin-left: 2px;
+}
 .part-cont{
 	display: inline-block;
 	width: 180px;
 	overflow: hidden;
 	text-align: center;
 	vertical-align: top;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 10px;
+	margin-bottom: 40px;
+	margin-left: 19px;
+	margin-right: 9px;
 
 
 }
 .bild-box{
-	border: 2px #3ba8c0 solid;
+	border: 3px #3ba8c0 solid;
 	border-radius: 4px;
 	position: relative;
     overflow: hidden;
@@ -31,17 +36,20 @@
 	background-color: #016ca4;
 	top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 .link{
 	/*visibility: hidden;*/
 	display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 10px;
+    border: 3px solid #fff;
+    border-radius: 5px;
     text-decoration: none;
     color: #fff;
-    margin-top: 55px;
+    margin-top: 50px;
+    width: 65px;
     text-align: center;
+    padding: 3px 0px;
+    font: 13px/13px 'fira_sansbook';
 }
 .link-2{
 
@@ -58,4 +66,25 @@
     font-family: 'fira_sanslight';
     font-size: 15px;
     color: #4a545d;
+}
+.new-work{
+	width: 178px;
+	height: 124px;
+	background-color: #edf8fc;
+	border: 1px dashed #3ba8c0;
+  	border-radius: 4px;
+}
+.add-work-link{
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	background: url('../img/new.png') no-repeat;
+	background-position: center 35px;
+}
+.add-work-text{
+	margin: 0;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 13px;
+	color: #3ba8c0;
 }

@@ -32,6 +32,7 @@ ol, ul {list-style: none;}
 }
 .container-header{
 	width: 1200px;
+	min-width: 960px;
 	margin: 0 auto;
 	position: relative;
 	display:table;
@@ -51,12 +52,12 @@ ol, ul {list-style: none;}
 	display: inline-block;
 	width: 48px;
 	height: 48px;
-	margin-left: 19px;
+	margin-left: 17px;
 }
 .container-header .socials{
 	position: absolute;
 	right: 0;
-	margin-top: 40px;
+	margin-top: 35px;
 }
 .socials .soc-link{
 	display: block;
@@ -76,7 +77,7 @@ ol, ul {list-style: none;}
 
 .page{
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	height: 100%;
 	display:table;
 }
@@ -91,25 +92,27 @@ ol, ul {list-style: none;}
 	width: 250px;
 	float: left;
 }
-.nav{
+
+/* Навигация*/
+.navig{
 	background-color: #eff3f7;
 	border-radius: 5px;
 	overflow: hidden;
 	margin-bottom: 23px;
 }
-.nav .nav-list{
+.navig .nav-list{
 	margin: 0;
 	padding: 0;
 }
-.nav .nav-item{
-	border-bottom: 2px solid #3ba8c0;
+.navig .nav-item{
 	margin: 0 11px;
+	border-top: 2px solid #3ba8c0;
 }
-.nav .nav-item:first-child{
+.nav-list .nav-item:first-child{
 	border-top: none;
 }
 
-.nav .nav-item.special{
+.navig .nav-item.special{
 	background-color: #3ba8c0;
 	margin: 0;
 	border-bottom: none;
@@ -117,21 +120,25 @@ ol, ul {list-style: none;}
 	margin-bottom: -2px;
 }
 
-.nav .nav-item.special .nav-link{
+.navig .nav-item.special .nav-link{
 	color: #f9fafb;
 	font-size: 22px;
 }
-.nav .nav-link{
+.navig .nav-link{
 	display: block;
-	font-size: 20px;
+	font: 21px/21px 'fira_sansbook';
 	text-decoration: none;
 	color: #959aa8;
 	margin-left: 16px;
-	padding: 20px 0px;
+	padding: 26px 0px;
+
 }
-.nav .nav-link:hover{
+.navig .nav-link:hover{
 	color: #3ba8c0;
 }
+
+
+
 .contacts{
 	background-color: #3ba8c0;
 	border-radius: 5px;
@@ -141,10 +148,10 @@ ol, ul {list-style: none;}
 }
 .contacts .title{
 	color: #ffffff;
-	font-size: 21px;
+	font: 21px/19px 'fira_sansbook';
 	display: block;
 	text-decoration: none;
-	padding: 10px 0;
+	padding: 10px 1px;
 	margin-left: -66px;
 }
 .contacts .cont-list{
@@ -155,9 +162,8 @@ ol, ul {list-style: none;}
 	color: #ffffff;
 	display: block;
 	text-decoration: none;
-	padding: 10px 0px;
-	font-size: 17px;
-	padding: 10px 0;
+	padding: 12px 0px;
+	font: 17px/17px 'fira_sansbook';
 	max-width: 50px;
 
 }
@@ -190,19 +196,19 @@ ol, ul {list-style: none;}
 	margin-bottom: 26px;
 }
 .block-title{
-	font-size: 27px;
+	font: 27px/27px 'fira_sansbook';
 	color: #3ba8c0;
 	border-bottom: 2px #3ba8c0 solid;
-	margin: 0 0 23px 0;
-	padding: 15px 23px;
+	margin: 0 0 22px 0;
+	padding: 20px 23px;
 	display: inline-block;
 	font-weight: normal;
 
 }
 .image-wrap{
 	float: left;
-	margin-left: 63px;
-	margin-top: 13px;
+	margin-left: 54px;
+	margin-top: 11px;
 }
 .avatar-box{
 	height: 142px;
@@ -218,47 +224,82 @@ ol, ul {list-style: none;}
 .block .info-wrap{
 	float: right;
 	width: 400px;
+
 }
 .info-list{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 19px;
+    width: 400px;
+    float: left;
+
 }
 .info-item{
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 }
 
 .info-item .info-query{
-	font-size: 15px;
 	float: left;
-	font-family: 'fira_sansmedium';
+	font: 17px/17px 'fira_sansmedium';
 
 }
 .info-res{
 	margin-left: 20px;
 	float: left;
-	font-size: 15px;
+	font: 15px/15px 'fira_sansbook';
 	overflow: hidden;
 	max-width: 210px;
 }
+.box-list{
+		margin: 0;
+	padding-left: 50px;
+}
+.info-item-2{
+	padding-left: 76px;
+	padding-right: 10px;
+	margin-bottom: 16px;
+}
+.info-skills{
+		padding: 0;
+}
+
+.skills-item{
+	float: left;
+	border-radius: 4px;
+	color: #fff;
+	font-family: 'proxima_nova_condensedSBd';
+	text-align: center;
+	padding: 3px 12px;
+	margin-right: 7px;
+    margin-bottom: 10px;
+	background: rgb(59,168,192);
+	background: -moz-linear-gradient(top, rgb(59,168,192) 52%, rgb(46,140,162) 52%);
+	background: -webkit-linear-gradient(top, rgb(59,168,192) 52%,rgb(46,140,162) 52%);
+	background: linear-gradient(to bottom, rgb(59,168,192) 52%,rgb(46,140,162) 52%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 );
+}
+
 .block-body{
 	padding-bottom: 20px;
 }
+/*
 .block-body.work .info-item{
 	padding: 0 0 0 120px;
 	margin-bottom: 20px;
 }
-.info-item.icon-w{
-	background: url(../img/work.png) 57px center no-repeat;
+*/
+.info-item-2.icon-w{
+	background: url(../img/work.png) 9px center no-repeat;
 }
 .block-body.studium .info-item{
 	padding: 0 0 0 120px;
 	margin-bottom: 20px;
 }
-.info-item.icon-st{
-	background: url(../img/uni.png) 55px center no-repeat;
+.info-item-2.icon-st{
+	background: url(../img/uni.png) 9px center no-repeat;
 }
-.info-item.icon-kurs{
-	background: url(../img/kurs.png) 62px center no-repeat;
+.info-item-2.icon-kurs{
+	background: url(../img/kurs.png) 9px center no-repeat;
 }
 
 .info-place{
@@ -292,6 +333,8 @@ ol, ul {list-style: none;}
 	height: 80px;
 	margin-top: -10px;
 	background:  #eff3f7 url('../img/band.png') top center no-repeat;
+	font-family: 'fira_sanslight';
+    color: #4a545d;
 }
 .footer .container{
 	padding-top: 23px;

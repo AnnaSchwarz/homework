@@ -9,7 +9,7 @@
 	margin: 0;
 	font-family: 'fira_sansbook';
     color: #fff;
-	padding: 50px 0;
+	padding: 39px 0;
 	/*background-color: #48cbe8; 67dffa*/
 }
 
@@ -18,9 +18,9 @@
     font-family: 'fira_sanslight';
 }
 .block .add{
-    height: 150px;
+    height: 135px;
     background-color: #67dffa;
-    margin-bottom: 20px;
+    margin-bottom: 48px;
 }
 .block-form-wrap{
 	width: 400px;
@@ -33,9 +33,6 @@
 	width: 400px;
 	margin: auto;
 }
-.contact-form{
-
-}
 .forma{
 	display: inline-block;
 	width:50px;
@@ -47,6 +44,7 @@
 .lab{
 	width: 190px;
 	display: inline-block;
+      font: 19px/19px 'fira_sanslight';
 }
 .form-1{
 	display: inline-block;
@@ -55,7 +53,7 @@
 	padding: 0;
 }
 .form-2{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .from-1{
 	margin-bottom: 20px;
@@ -67,6 +65,7 @@
     border-radius: 2px;
     padding-left: 8px; 
 	float: left;
+    font-size: 13px;
 }
 .big{
 	border: 1px solid #48cbe8;
@@ -75,7 +74,9 @@
     padding-top: 8px;
     padding-right: 5px;
     resize: none;
-        width: 385px;
+    width: 385px;
+        height: 171px;
+    font-size: 13px;
 }
 .pic{
 	    border: 1px solid #48cbe8;
@@ -95,6 +96,7 @@
     padding-left: 8px;
     width: 180px;
     height: 28px;
+    font-size: 13px;
 }
 .gap{
 	margin-right: 19px;
@@ -114,14 +116,17 @@
 ::-webkit-input-placeholder {
 	color: #48cbe8;
 }
+.btn-wrap{
+    margin-bottom: 200px;
+}
 .button-1 {
  	position: relative;
-    padding: 5px 25px;
+    padding: 1px 20px;
     /* margin: 0px 10px 10px 0px; */
     float: left;
     border-radius: 5px;
-    font-family: 'Helvetica', cursive;
-    font-size: 19px;
+    font-family: 'fira_sansbook', cursive;
+     font-size: 20px;
     color: #FFF;
     text-decoration: none;
     background-color: #48cbe8;
@@ -129,18 +134,21 @@
 }
 .button-2 {
  	position: relative;
-    padding: 5px 25px;
+    padding: 1px 20px;
     /* margin: 0px 10px 10px 0px; */
     float: right;
     border-radius: 5px;
-    font-family: 'Helvetica', cursive;
-    font-size: 19px;
+    font-family: 'fira_sansbook', cursive;
+     font-size: 20px;
     color: #FFF;
     text-decoration: none;
     background-color: #849db5;
     border-bottom: 3px solid #687b8f;
 }
-.btn-wrap{
-	margin-bottom: 200px;
+.button-1:hover, .button-2:hover{
+    margin-top: 3px;
+    border-bottom: 0px solid #687b8f;
 }
+
+
 

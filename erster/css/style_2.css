@@ -24,12 +24,12 @@ ol, ul {list-style: none;}
 .header{
 	height: 118px;
 	width: 100%;
-	background: #eff3f7 url('../img/band.png') bottom center no-repeat;
 	margin-bottom: 39px;
+	background: #eff3f7 url('../img/band.png') bottom center no-repeat;
 }
-
 .container-header{
 	width: 1200px;
+	min-width: 960px;
 	margin: 0 auto;
 	position: relative;
 	display:table;
@@ -49,12 +49,12 @@ ol, ul {list-style: none;}
 	display: inline-block;
 	width: 48px;
 	height: 48px;
-	margin-left: 19px;
+	margin-left: 17px;
 }
 .container-header .socials{
 	position: absolute;
 	right: 0;
-	margin-top: 40px;
+	margin-top: 35px;
 }
 .socials .soc-link{
 	display: block;
@@ -74,7 +74,7 @@ ol, ul {list-style: none;}
 
 .page{
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	height: 100%;
 	display:table;
 }
@@ -89,25 +89,27 @@ ol, ul {list-style: none;}
 	width: 250px;
 	float: left;
 }
-.nav{
+
+/* Навигация*/
+.navig{
 	background-color: #eff3f7;
 	border-radius: 5px;
 	overflow: hidden;
 	margin-bottom: 23px;
 }
-.nav .nav-list{
+.navig .nav-list{
 	margin: 0;
 	padding: 0;
 }
-.nav .nav-item{
-	border-bottom: 2px solid #3ba8c0;
+.navig .nav-item{
 	margin: 0 11px;
+	border-top: 2px solid #3ba8c0;
 }
-.nav .nav-item:first-child{
+.nav-list .nav-item:first-child{
 	border-top: none;
 }
 
-.nav .nav-item.special{
+.navig .nav-item.special{
 	background-color: #3ba8c0;
 	margin: 0;
 	border-bottom: none;
@@ -115,21 +117,25 @@ ol, ul {list-style: none;}
 	margin-bottom: -2px;
 }
 
-.nav .nav-item.special .nav-link{
+.navig .nav-item.special .nav-link{
 	color: #f9fafb;
 	font-size: 22px;
 }
-.nav .nav-link{
+.navig .nav-link{
 	display: block;
-	font-size: 20px;
+	font: 21px/21px 'fira_sansbook';
 	text-decoration: none;
 	color: #959aa8;
 	margin-left: 16px;
-	padding: 20px 0px;
+	padding: 26px 0px;
+
 }
-.nav .nav-link:hover{
+.navig .nav-link:hover{
 	color: #3ba8c0;
 }
+
+
+
 .contacts{
 	background-color: #3ba8c0;
 	border-radius: 5px;
@@ -139,10 +145,10 @@ ol, ul {list-style: none;}
 }
 .contacts .title{
 	color: #ffffff;
-	font-size: 21px;
+	font: 21px/19px 'fira_sansbook';
 	display: block;
 	text-decoration: none;
-	padding: 10px 0;
+	padding: 10px 1px;
 	margin-left: -66px;
 }
 .contacts .cont-list{
@@ -153,9 +159,8 @@ ol, ul {list-style: none;}
 	color: #ffffff;
 	display: block;
 	text-decoration: none;
-	padding: 10px 0px;
-	font-size: 17px;
-	padding: 10px 0;
+	padding: 12px 0px;
+	font: 17px/17px 'fira_sansbook';
 	max-width: 50px;
 
 }
@@ -178,6 +183,7 @@ ol, ul {list-style: none;}
 }
 
 
+
 .content{
 	width: 650px;
 	float: right;
@@ -188,12 +194,14 @@ ol, ul {list-style: none;}
 	margin-bottom: 26px;
 }
 .block-title{
-	font-size: 27px;
+	font: 27px/27px 'fira_sansbook';
 	color: #3ba8c0;
 	border-bottom: 2px #3ba8c0 solid;
-	margin: 0 0 23px 0;
-	padding: 15px 23px;
+	margin: 0 0 22px 0;
+	padding: 20px 23px;
 	display: inline-block;
+	font-weight: normal;
+
 }
 .image-wrap{
 	float: left;
@@ -286,6 +294,8 @@ ol, ul {list-style: none;}
 	height: 80px;
 	margin-top: -10px;
 	background:  #eff3f7 url('../img/band.png') top center no-repeat;
+	font-family: 'fira_sanslight';
+    color: #4a545d;
 }
 .footer .container{
 	padding-top: 23px;
