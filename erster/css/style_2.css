@@ -20,6 +20,7 @@ ol, ul {list-style: none;}
 	overflow: hidden;
 	position: relative;
 	min-height: 100%;
+  	min-width: 970px;
 }
 .header{
 	height: 118px;
@@ -28,12 +29,11 @@ ol, ul {list-style: none;}
 	background: #eff3f7 url('../img/band.png') bottom center no-repeat;
 }
 .container-header{
-	width: 1200px;
-	min-width: 960px;
-	margin: 0 auto;
-	position: relative;
-	display:table;
-	height: 100%;
+	max-width: 1200px;
+    min-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 .logo {
 	position: absolute;
