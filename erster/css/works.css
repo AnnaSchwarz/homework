@@ -1,3 +1,20 @@
+input{
+	color: #48cbe8;
+}
+button{outline: none;}
+.input {
+display: block;
+    height: 34px;
+    width: 310px;
+    color: #48cbe8;
+    background-color: #fff;
+    border: 1px solid rgb(72, 203, 232);
+    border-radius: 4px;
+    outline: none;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 0;
+}
 .projects{
 	padding-bottom: 230px;
 	margin-top: 6px;
@@ -12,9 +29,14 @@
 	margin-bottom: 40px;
 	margin-left: 19px;
 	margin-right: 9px;
-
-
 }
+.fileupload-wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
 .bild-box{
 	border: 3px #3ba8c0 solid;
 	border-radius: 4px;
@@ -67,14 +89,28 @@
     font-size: 15px;
     color: #4a545d;
 }
-.new-work{
+.add-new{
 	width: 178px;
 	height: 124px;
 	background-color: #edf8fc;
 	border: 1px dashed #3ba8c0;
   	border-radius: 4px;
 }
+
+.fileupload-lable{
+	display: block;
+  	width: 52px;
+  	height: 37px;
+	position: absolute;
+  	right: 0;
+	background: url('../img/upload-icon.png') 10px 7px no-repeat;
+	background-color: #48cbe8;
+	border-radius: 0 4px 4px 0;
+}
+
+
 .add-work-link{
+
 	height: 100%;
 	display: block;
 	text-decoration: none;
@@ -87,4 +123,176 @@
 	text-align: center;
 	font-size: 13px;
 	color: #3ba8c0;
+}
+.fileupload{ /* хак, взятый из html5boilerplate */
+	border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#new-proj-popup{
+	background-color:#eff3f7;
+    border-radius:4px;
+    color:#000;
+    display:none; 
+    width:362px;
+    height: 495px;
+    overflow: hidden;
+}
+.head-modal{
+	position: relative;
+	width: 362px;
+	height: 52px;
+	background-color: #67dffa;
+	margin-bottom: 10px;
+}
+.text-head{
+	position: relative;
+	width: 350px;
+	height: 38px;
+	background-color: #48cbe8;
+	text-align: left;
+	font-size: 25px;
+	font-family: 'fira_sansbook';
+	color: #fff;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.position{
+	position: absolute;
+    height: 25px;
+    width: 25px;
+	color: #fff;
+	font-size: 13px;
+	/*border: 2px #fff solid;
+	border-radius: 50% 50%;*/
+	padding: 0;
+	text-align: center;
+	right:10px;
+    top:9px;
+
+}
+.b-close{
+    cursor:pointer;
+    position:absolute; 
+    background: url(../img/close-icon.png) no-repeat;
+        border: 0;
+}
+.form-model{
+	width: 325px;
+	position: relative;
+	margin: 0 auto;
+}
+.form-modal{
+	display: block;
+    margin-top: 0em;
+    color: #48cbe8;
+}
+.label{
+	display: block;
+	color: #959aa8;
+    font: 17px/17px 'fira_sanslight';
+    margin-bottom: 10px;
+}
+.place{
+	width: 316px;
+	height: 34px;
+	outline: none;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	color: #48cbe8;
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+::-webkit-input-placeholder {color:#48cbe8;}
+::-moz-placeholder          {color:#48cbe8;}/* Firefox 19+ */
+:-moz-placeholder           {color:#48cbe8;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#48cbe8;}
+.formfile{
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	cursor: pointer;
+	height: 34px;
+	text-align: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+	width: 320px;
+	vertical-align: middle;
+	color: #48cbe8;
+}
+.select{
+	background: #48cbe8 url(../img/load.png) center no-repeat;
+	color: #48cbe8;
+	float: right;
+	height: 36px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 60px;
+}
+.file-div{
+	position: absolute;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+.file{
+	color: #48cbe8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	font-size: 150px;
+	height: 36px;
+	z-index: 20;
+}
+.area{
+	width: 316px;
+	height: 100px;
+	font-size: 13px;
+	outline: none;
+	border-radius: 4px;
+	border:1px solid #48cbe8;
+	color: #48cbe8;
+	padding-left: 10px;
+	padding-top: 10px;
+	resize:none;
+	margin-bottom: 10px; 
+}
+.btn{
+	display: block;
+	width: 140px;
+	height: 30px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 4px;
+	margin: 0 auto 20px;
+	background-color: #48cbe8;
+	border:0px #48cbe8;
+	box-shadow: 0 3px 0 0 #3ba8c0;
+
+}
+.btn:hover{
+	margin-top: 3px;
+    border-bottom: 0px solid #687b8f;
+    box-shadow: 0 0 0 0 #3ba8c0;
+}
+
+.error-message {
+background-color: #fad2d1;
+border-color: #f97e76;
+color: #f97e76;
+}
+.success-message {
+background-color: #b8e1ce;
+border-color: #49bb7b;
+color: #49bb7b;
 }

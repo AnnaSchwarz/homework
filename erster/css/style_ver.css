@@ -132,11 +132,13 @@
     text-decoration: none;
 }
 .btn-1 { 
+    border: 0;
     float: left; 
     background-color: #48cbe8;
     border-bottom: 3px solid #3ba8c0;
 }
 .btn-2 {
+    border: 0;
     float: right;
     background-color: #849db5;
     border-bottom: 3px solid #687b8f;
@@ -147,4 +149,17 @@
 }
 
 
-
+.has-error{
+    background-color: #fad2d1 !important;
+    border-color: #f97e76 !important;
+}
+.has-error:focus{
+    outline: 3px solid #f97e76;
+}
+.qtip{
+    background-color: #f97e76;
+    border-color: #f97e76;
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 13px;
+}

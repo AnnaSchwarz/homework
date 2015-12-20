@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>	
-  	<link rel="icon" type="image/png" href="img/favicon.ico">
+  		
 		<meta charset = "UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Портфолио</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- SEO -->
-		<meta name="description" content="loftschool_hw">
-		<meta name="keywords" content="loftschool_hw">
 		<meta name="author" content="Anna Schwarz">
 		<!-- favicon.ico-->
-		<link rel="shortcut icon" type="/favicon" href="">
+		<link rel="icon" type="image/png" href="img/favicon.ico">
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 	<link rel="stylesheet" type="text/css" href="bower/normalize-css/normalize.css">
 	<script src="bower/modernizer/modernizr.js"></script>
+				<!--[if lt IE 9]>
+  		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+  	<![endif]-->
+  	 	<!--[if lt IE 9]>
+    <script src="bower/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
 </head>
 <body>
+	<!--[if lt IE 8]>
+	<p class="browsehappy">Вы используете <strong>устаревший</strong> браузер.
+	Пожалуйста, <a href="http://browsehappy.com">обновите</a>его.</p>
+	<![endif]-->
 	<div class = "wrapper">
 		<header class = "header">
 			<div class="container-header">
@@ -158,7 +167,12 @@
 		</div>
 	</footer>
 
-
+<!--[if lt IE 9]>
+	<script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
+	<script type="text/javascript">
+	 jQuery('input[placeholder], textarea[placeholder]').placeholder();
+ 	</script>
+<![endif]-->
 <script src="bower/jquery/dist/jquery.js"></script>
 <script type="js/main.js"></script>
 </body>
