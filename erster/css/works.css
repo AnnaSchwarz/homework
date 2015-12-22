@@ -135,7 +135,7 @@ display: block;
   width: 1px;
 }
 
-#new-proj-popup{
+.new-proj-popup{
 	background-color:#eff3f7;
     border-radius:4px;
     color:#000;
@@ -143,7 +143,14 @@ display: block;
     width:362px;
     height: 495px;
     overflow: hidden;
+    margin-top: 100px;
 }
+
+/*.wrap-model{
+	margin-top: 100px;
+	background-color: #eff3f7;
+}
+*/
 .head-modal{
 	position: relative;
 	width: 362px;

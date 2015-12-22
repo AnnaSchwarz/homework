@@ -338,10 +338,3 @@ ol, ul {list-style: none;}
 .has-error:focus{
     outline: 3px solid #f97e76;
 }
-.qtip{
-    background-color: #f97e76;
-    border-color: #f97e76;
-    font-family: 'Arial';
-    color: #ffffff;
-    font-size: 13px;
-}

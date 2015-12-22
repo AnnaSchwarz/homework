@@ -4,11 +4,12 @@
  	<link rel="icon" type="image/png" href="img/favicon.ico">
 		<meta charset = "UTF-8">
 		<title>Работы</title>
-		<link rel="stylesheet" type="text/css" href="css/works.css">
-		<link rel="stylesheet" type="text/css" href="css/style_2.css">
+
 		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 		<link rel="stylesheet" type="text/css" href="bower/normalize-css/normalize.css">
 			<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
+					<link rel="stylesheet" type="text/css" href="css/works.css">
+		<link rel="stylesheet" type="text/css" href="css/style_2.css">
 		<script src="bower/modernizer/modernizr.js"></script>
 		 	<!--[if lt IE 9]>
     <script src="bower/html5shiv/dist/html5shiv.js"></script>
@@ -116,8 +117,9 @@
 						</div>
 					</div>
 
-					<div id = "new-proj-popup">
-						<div class="wrap-model">
+			<div class="wrap-model">
+					<div class = "new-proj-popup">
+						
 							<div class = "head-modal">
 								<div class = "text-head">Добавить проект</div>
 								<button type = "but" class="position b-close"></button> 
@@ -125,19 +127,19 @@
 							<div class="form-model">
 								<form id = "add-form-modal" id = "page__popup-addform" class="form-modal" action="add_project.php" name="M" method="">
 									<label for="projectName" class="label">Название проекта</label>
-									<input type="text" name="projectName" placeholder="Введите название" class="place">
+									<input type="text" name="projectName" placeholder="Введите название" qtip-content="Вы не ввели название" qtip-position="left"class="place input">
 									<div class="fileupload-wrapper" id="uploadfile">
 			                            <span class="label">Картинка проекта</span>
 			                            	<label class="fileupload-lable">
 			                                	<input id="fileupload" class="fileupload" type="file" name="files[]">
 			                                	<input id="fileurl" type="hidden" name="fileurl">
 			                            	</label>
-			                            	 <input id="filename" type="text" class="input" name="filename" placeholder="Загрузите изображение" disabled qtip-content="Вы не выбрали изображение" qtip-position="left">
+			                            	 <input id="filename" type="text" class="input" name="filename input" placeholder="Загрузите изображение" disabled qtip-content="Вы не выбрали изображение" qtip-position="left">
                         			</div>
 									<label for="urlName" class="label">URL проект</label>
-									<input type="text" name="urlName" placeholder="Добавьте ссылку" class="place">
+									<input type="text" name="urlName" placeholder="Добавьте ссылку" qtip-content="Вы не добавили ссылку" qtip-position="left" class="place input">
 									<label for="descrName" class="label">Описание</label>
-									<textarea name="descrName" cols="30" rows="10" placeholder="Пара слов о Вашем проекте" class="area"></textarea>
+									<textarea name="descrName" cols="30" rows="10" placeholder="Пара слов о Вашем проекте" qtip-content="Описание проекта обязательно" qtip-position="left" class="area textarea"></textarea>
 									<button type="submit" class="btn">Добавить</button>
 								</form>
 							</div>
