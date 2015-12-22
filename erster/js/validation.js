@@ -28,8 +28,8 @@
 	     	}); 
 
 	    	return valid;
-      	
-      	
+      	},
+
       	// Прослушивает все события
 		_setUpListners = function () {
 	    	$('form').on('keydown', '.has-error', _removeError); 

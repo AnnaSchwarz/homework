@@ -296,3 +296,17 @@ background-color: #b8e1ce;
 border-color: #49bb7b;
 color: #49bb7b;
 }
+.qtip{
+    background-color: #f97e76;
+    border-color: #f97e76;
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 13px;
+}
+.qtip-mystyle{
+	    background-color: #f97e76;
+    border-color: #f97e76;
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 13px;
+}
